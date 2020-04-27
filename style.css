@@ -1,0 +1,161 @@
+* {box-sizing: border-box;}
+
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: cornflowerblue;
+    top: 0;
+    z-index: 10;
+    display: block;
+    position: sticky;
+}
+
+
+.header-left {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    float: left;
+    color: white;
+}
+
+.header-right {
+    float: right;
+    margin-right: -25px;
+
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(img/main.jpg);
+    background-size: cover;
+    color: rgb(5, 84, 148);
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {margin-bottom: 3px;}
+
+.profile-wrapper {
+    padding-bottom: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.profile p {
+    text-align: justify;
+}
+
+.profile {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-img {
+    border-radius: 180px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    background-color: cornflowerblue;
+    bottom:  0;
+    display: block;
+    
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+.formulir {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: fantasy;
+}
+
+.form-grup {
+    margin-bottom: 1rem;
+}
+
+input, textarea {
+    display: block;
+    width: 50%;
+    padding: 10px 10px;
+    font-size: 15px;
+    line-height: 1;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-family: fantasy;
+}
+
+.btn {
+    padding: 12px 24px;
+    color: black;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.tombol {
+    padding: 15px 40px;
+    background-color: dodgerblue;
+    cursor: pointer;
+    box-shadow: 0 7px deepskyblue;
+}
+
+.tombol:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
