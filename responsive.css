@@ -12,6 +12,13 @@
     .heading h2 {
         font-size: 20px;
     }
+
+  
+    .header-right {
+        display: block;
+    }
+
+    
 }
 
 /* Untuk Smartphone */
@@ -24,7 +31,7 @@
         text-align: center;
     }
 
-    .btn {
+    .tombol {
         width: 100%;
     }
 
@@ -46,4 +53,11 @@
         font-size: 14px;
         line-height: 20px;
     }
+
+
+    .header-right {
+        display: block;
+    }
+
+    input, textarea { width: 100%; }
 }
